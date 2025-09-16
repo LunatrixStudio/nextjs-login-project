@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { loadUser, clearUser } from '../../lib/session'
 import { useRouter } from 'next/navigation'
 import type { StoredUser } from '../../types/user'
-import { Button } from '@/components/ui/button' 
+import { Button } from '@/components/ui/Button'
 
 export default function DashboardPage() {
   const [user, setUser] = useState<StoredUser | null>(null)
